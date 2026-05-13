@@ -1,0 +1,42 @@
+{
+  "defaults": {
+    "http_request": {
+      "service_url": "https://kkt-online.nalog.ru/lkip.html",
+      "query_path": "/kkt/model/check",
+      "headers": {
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "X-Requested-With": "XMLHttpRequest",
+        "Referer": "https://kkt-online.nalog.ru/",
+        "User-Agent": "Mozilla/5.0 (compatible; KKTStatusChecker/1.0)"
+      }
+    },
+    "grist_gptr_url": "https://docs.getgrist.com/3PhaVm9AVxZA/Untitled-document-Table1/p/1",
+    "grist_af6_url": "https://docs.getgrist.com/3PhaVm9AVxZA/Untitled-document-Table1/p/2",
+    "request_delay_seconds": 1.0,
+    "batch_pause_seconds": 15.0,
+    "batch_size": 200,
+    "request_timeout_seconds": 15.0,
+    "search_ignore_case": false,
+    "selected_theme": "sandstone"
+  },
+  "current": {
+    "http_request": {
+      "service_url": "https://kkt-online.nalog.ru/lkip.html",
+      "query_path": "/kkt/model/check",
+      "headers": {
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "X-Requested-With": "XMLHttpRequest",
+        "Referer": "https://kkt-online.nalog.ru/",
+        "User-Agent": "Mozilla/5.0 (compatible; KKTStatusChecker/1.0)"
+      }
+    },
+    "grist_gptr_url": "https://docs.getgrist.com/3PhaVm9AVxZA/Untitled-document-Table1/p/1",
+    "grist_af6_url": "https://docs.getgrist.com/3PhaVm9AVxZA/Untitled-document-Table1/p/2",
+    "request_delay_seconds": 0.5,
+    "batch_pause_seconds": 15.0,
+    "batch_size": 200,
+    "request_timeout_seconds": 15.0,
+    "search_ignore_case": false,
+    "selected_theme": "sandstone"
+  }
+}
